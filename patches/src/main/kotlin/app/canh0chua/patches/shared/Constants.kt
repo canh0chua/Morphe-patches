@@ -1,11 +1,21 @@
 package app.canh0chua.patches.shared
 
+
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.SupportedAbi
 
 object Constants {
+    val COMPATIBILITY_VIBER = Compatibility(
+        name = "Viber",
+        packageName = "com.viber.voip",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0xFF7360F2,
+        targets = listOf(
+            AppTarget(version = null, isExperimental = true)
+        )
+    )
     val COMPATIBILITY_EXAMPLE = Compatibility(
         name = "XYZ app", // App name as it appears in the Android launcher.
         packageName = "com.example.app",
