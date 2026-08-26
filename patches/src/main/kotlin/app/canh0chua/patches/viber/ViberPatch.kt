@@ -19,7 +19,6 @@ object ResourcesFingerprint : Fingerprint(
     returnType = "Landroid/content/res/Configuration;",
     parameters = emptyList(),
     filters = listOf(
-        // We match the start of the method to ensure we are in the right place
         opcode(Opcode.INVOKE_VIRTUAL),
         methodCall(
             definingClass = "Landroid/content/res/Resources;",
@@ -28,22 +27,15 @@ object ResourcesFingerprint : Fingerprint(
     )
 )
 
-val viberTabletSpoofPatch = bytecodePatch(
-    name = "Tablet Spoof",
+val secondaryViberDevicePatch = bytecodePatch(
+    name = "Secondary Viber Device",
     description = "Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow.",
     default = true
 ) {
     compatibleWith(COMPATIBILITY_VIBER)
     execute {
         ResourcesFingerprint.method.addInstructions(
-            // After the call to getConfiguration(), we modify the resulting Configuration object.
-            // Original:
-            // invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
-            // move-result-object v0
-            // return-object v0
-            
-            // We inject after the move-result-object v0 (which is the 2nd instruction typically)
-            2, 
+            2,
             """
             const/16 v1, 0x258
             iput v1, v0, Landroid/content/res/Configuration;->smallestScreenWidthDp:I

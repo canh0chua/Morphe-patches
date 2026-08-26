@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Initial project setup based on Morphe patches template
-- Viber tablet spoof patch (`com.viber.voip`)
+- **Secondary Viber Device** patch (`com.viber.voip`)
   - Forces device detection as tablet (smallestScreenWidthDp >= 600)
   - Enables "Link as secondary device" flow for SIM-free activation
 
