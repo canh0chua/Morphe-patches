@@ -1,8 +1,8 @@
 # 👋🧩 canh0chua Morphe Patches
 
-Personal patches for apps I like.
+Personal patches for Viber and other apps.
 
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+This repository contains a tablet spoof patch for Viber that enables the "Link as secondary device" flow, allowing you to link a phone/tablet to an existing primary Viber account without requiring a SIM-based activation.
 
 ### How to use these patches
 
