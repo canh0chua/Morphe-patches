@@ -10,6 +10,16 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 ## 🩹 Patches list
 
+#### Viber
+| Name | Description |
+|---|---|
+| Tablet Spoof | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
+
+#### Example
+| Name | Description |
+|---|---|
+| Example Patch | Example patch to start with. |
+
 <!-- PATCHES_START EXPANDED -->
 
 <!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
@@ -19,9 +29,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
      If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END 
      comment blocks entirely. -->
 
-#### A list of your patches will automatically be shown here after your first patches release is created.
-
-&nbsp;
+<!-- PATCHES_END -->
 
 ## 🚀 Getting development started
 
