@@ -9,7 +9,7 @@ object Constants {
         name = "Viber",
         packageName = "com.viber.voip",
         apkFileType = ApkFileType.APK,
-        appIconColor = 0xFF7360F2.toInt(),
+        appIconColor = 0x7360F2,
         targets = listOf(
             AppTarget(version = null, isExperimental = true)
         )
