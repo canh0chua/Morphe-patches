@@ -2,7 +2,7 @@
 
 Personal patches for Viber and other apps.
 
-This repository currently contains a verified **Secondary Viber Device** patch for Viber that forces tablet detection and enables the "Link as secondary device" flow.
+This repository contains patches for Viber that remove ads, ChatGPT, and AI News, and force tablet detection.
 
 ### How to use these patches
 
@@ -13,6 +13,9 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | App | Name | Description |
 |---|---|---|
 | Viber | Secondary Viber Device | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
+| Viber | Remove Ads | Disables ads in Viber. |
+| Viber | Remove ChatGPT | Disables the ChatGPT feature in Viber. |
+| Viber | Remove AI News | Disables the AI News feature in Viber. |
 
 <!-- PATCHES_START EXPANDED -->
 > **[v1.2.2](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.2.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
