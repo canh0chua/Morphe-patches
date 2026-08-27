@@ -18,13 +18,16 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | Viber | Remove AI News | Disables the AI News feature in Viber. |
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.2](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.2.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.3.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
-<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Remove AI News](#remove-ai-news) | Disables the AI News feature in Viber. |  |
+| [Remove Ads](#remove-ads) | Disables ads in Viber. |  |
+| [Remove ChatGPT](#remove-chatgpt) | Disables the ChatGPT feature in Viber. |  |
 | [Secondary Viber Device](#secondary-viber-device) | Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow. |  |
 
 </details>

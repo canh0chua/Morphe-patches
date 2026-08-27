@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/canh0chua/Morphe-patches/compare/v1.2.2...v1.3.0) (2026-08-27)
+
+### ✨ New Features
+
+* add Remove Ads, Remove ChatGPT, Remove AI News patches for Viber ([831f8c9](https://github.com/canh0chua/Morphe-patches/commit/831f8c9bbedf99dbef850eb11a1a86b2bb32042d))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
