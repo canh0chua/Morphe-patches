@@ -19,13 +19,17 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | Viber | Secondary Viber Device | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
-<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Remove AI News](#remove-ai-news) | Disables the AI News Brief feature and removes the AI News tab from Viber. |  |
+| [Remove Ads](#remove-ads) | Disables all ad SDKs (AdMob, Facebook, Vungle, AppHarbr) in Viber. |  |
+| [Remove ChatGPT](#remove-chatgpt) | Disables the ChatGPT integration and removes the ChatGPT tab from Viber. |  |
+| [Remove Viber Pay](#remove-viber-pay) | Disables the Viber Pay feature and removes the payment tab from Viber. |  |
 | [Secondary Viber Device](#secondary-viber-device) | Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow. |  |
 
 </details>

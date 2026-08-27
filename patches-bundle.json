@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-26T22:38:02",
-  "description": "## 1.0.0 (2026-08-26)\n\n### 🐛 Bug Fixes\n\n* add package-lock.json for npm cache in release workflow ([87898c0](https://github.com/canh0chua/Morphe-patches/commit/87898c0466a06e8461ef9d5be210a2db2710da17))\n* appIconColor must be 0xRRGGBB format (removed alpha channel) ([c115329](https://github.com/canh0chua/Morphe-patches/commit/c11532972255f090b6be21a8c1931544a1a56459))\n* resolve Kotlin compilation errors in Constants, ViberPatch, PatchListGenerator ([ba9bb7e](https://github.com/canh0chua/Morphe-patches/commit/ba9bb7ec87b20d847e11c4b7a89d3d241d4f0341))\n\n### ✨ New Features\n\n* add Viber tablet spoof patch ([7186b81](https://github.com/canh0chua/Morphe-patches/commit/7186b81e70861389e867d37150d226743cf45329))",
-  "download_url": "https://github.com/canh0chua/Morphe-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "created_at": "2026-08-27T01:23:51",
+  "description": "## [1.1.0](https://github.com/canh0chua/Morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-27)\n\n### 🐛 Bug Fixes\n\n* add missing imports (addInstructions, Opcode) to new Viber patches ([05e04a1](https://github.com/canh0chua/Morphe-patches/commit/05e04a148d7b332f6ea4ccd89331108498138676))\n\n### ✨ New Features\n\n* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([12ec30f](https://github.com/canh0chua/Morphe-patches/commit/12ec30fde6f803288622b912d9459be5ebf770c8))\n* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([910488b](https://github.com/canh0chua/Morphe-patches/commit/910488b2412c4e07beae4057f1a7f3835c0b662c))",
+  "download_url": "https://github.com/canh0chua/Morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
   "signature_download_url": "",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

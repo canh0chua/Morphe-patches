@@ -1,7 +1,111 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
+    {
+      "name": "Remove AI News",
+      "description": "Disables the AI News Brief feature and removes the AI News tab from Viber.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Viber",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Disables all ad SDKs (AdMob, Facebook, Vungle, AppHarbr) in Viber.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Viber",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove ChatGPT",
+      "description": "Disables the ChatGPT integration and removes the ChatGPT tab from Viber.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Viber",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove Viber Pay",
+      "description": "Disables the Viber Pay feature and removes the payment tab from Viber.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Viber",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Secondary Viber Device",
       "description": "Forces Viber to detect the device as a tablet, enabling the 'Link as secondary device' flow.",

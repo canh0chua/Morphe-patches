@@ -1,3 +1,14 @@
+## [1.1.0](https://github.com/canh0chua/Morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-27)
+
+### 🐛 Bug Fixes
+
+* add missing imports (addInstructions, Opcode) to new Viber patches ([05e04a1](https://github.com/canh0chua/Morphe-patches/commit/05e04a148d7b332f6ea4ccd89331108498138676))
+
+### ✨ New Features
+
+* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([12ec30f](https://github.com/canh0chua/Morphe-patches/commit/12ec30fde6f803288622b912d9459be5ebf770c8))
+* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([910488b](https://github.com/canh0chua/Morphe-patches/commit/910488b2412c4e07beae4057f1a7f3835c0b662c))
+
 ## 1.0.0 (2026-08-26)
 
 ### 🐛 Bug Fixes
