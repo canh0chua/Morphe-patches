@@ -17,14 +17,13 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | Viber | Remove Viber Pay | Disables the Viber Pay feature and removes the payment tab from Viber. |
 | Viber | Secondary Viber Device | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+> **[v1.2.1](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.2.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
-<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;6 patches</summary>
+<summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Enable Local Backup](#enable-local-backup) | Disables Viber's custom backup agent so Android's system backup can be used for local backup/restore. |  |
 | [Remove AI News](#remove-ai-news) | Disables the AI News Brief feature and removes the AI News tab from Viber. |  |
 | [Remove Ads](#remove-ads) | Disables all ad SDKs (AdMob, Facebook, Vungle, AppHarbr) in Viber. |  |
 | [Remove ChatGPT](#remove-chatgpt) | Disables the ChatGPT integration and removes the ChatGPT tab from Viber. |  |
