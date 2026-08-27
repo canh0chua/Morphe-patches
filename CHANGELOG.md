@@ -1,3 +1,8 @@
+## [1.2.2](https://github.com/canh0chua/Morphe-patches/compare/v1.2.1...v1.2.2) (2026-08-27)
+
+### 🐛 Bug Fixes
+
+* remove 4 unverified patches; keep only Secondary Viber Device ([6c35e28](https://github.com/canh0chua/Morphe-patches/commit/6c35e28f3e41eb01d0fb9da14bc9734e464153ac))
 
 # Changelog
 
