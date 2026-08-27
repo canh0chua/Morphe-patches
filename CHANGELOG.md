@@ -1,9 +1,3 @@
-## [1.2.2](https://github.com/canh0chua/Morphe-patches/compare/v1.2.1...v1.2.2) (2026-08-27)
-
-### 🐛 Bug Fixes
-
-* remove 4 unverified patches; keep only Secondary Viber Device ([6c35e28](https://github.com/canh0chua/Morphe-patches/commit/6c35e28f3e41eb01d0fb9da14bc9734e464153ac))
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -15,16 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Remove Ads** patch (`com.viber.voip`) — forces `ViberPlusSettingsState.isAdsFree()` to return true
-- **Remove ChatGPT patch (`com.viber.voip`) — short-circuits the URL scheme handler so ChatGptLoginActivity can never launch
-- **Remove AI News patch (`com.viber.voip`) — makes the AI News Brief launcher a no-op
+- **Remove ChatGPT** patch (`com.viber.voip`) — short-circuits the URL scheme handler so ChatGptLoginActivity can never launch
+- **Remove AI News** patch (`com.viber.voip`) — makes the AI News Brief launcher a no-op
 
 ### Changed
 - All 4 patches verified against Viber 28.6.2.0 via smali reverse-engineering
+
 ## [1.2.2] - 2026-08-27
 
-### Changed
-- Removed unverified patches: Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay
-- Kept only **Secondary Viber Device** (verified working on this Viber build)
+### 🐛 Bug Fixes
+
+* remove 4 unverified patches; keep only Secondary Viber Device ([6c35e28](https://github.com/canh0chua/Morphe-patches/commit/6c35e28f3e41eb01d0fb9da14bc9734e464153ac))
 
 ## [1.2.1] - 2026-08-27
 
