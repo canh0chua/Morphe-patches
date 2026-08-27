@@ -2,7 +2,7 @@
 
 Personal patches for Viber and other apps.
 
-This repository contains patches for Viber that remove ads, ChatGPT, AI News, and Viber Pay.
+This repository contains patches for Viber that remove ads, ChatGPT, AI News, and Viber Pay, enable local backup, and force tablet detection.
 
 ### How to use these patches
 
@@ -11,13 +11,12 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 | App | Name | Description |
-|---|---|---|
 | Viber | Remove Ads | Disables all ad SDKs (AdMob, Facebook, Vungle, AppHarbr) in Viber. |
 | Viber | Remove ChatGPT | Disables the ChatGPT integration and removes the ChatGPT tab from Viber. |
 | Viber | Remove AI News | Disables the AI News Brief feature and removes the AI News tab from Viber. |
 | Viber | Remove Viber Pay | Disables the Viber Pay feature and removes the payment tab from Viber. |
 | Viber | Secondary Viber Device | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
-
+| Viber | Enable Local Backup | Disables Viber's custom backup agent so Android's system backup can be used for local backup/restore. |
 <!-- PATCHES_START EXPANDED -->
 > **[v1.1.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
