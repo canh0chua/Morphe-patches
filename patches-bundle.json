@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-27T01:23:51",
-  "description": "## [1.1.0](https://github.com/canh0chua/Morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-27)\n\n### 🐛 Bug Fixes\n\n* add missing imports (addInstructions, Opcode) to new Viber patches ([05e04a1](https://github.com/canh0chua/Morphe-patches/commit/05e04a148d7b332f6ea4ccd89331108498138676))\n\n### ✨ New Features\n\n* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([12ec30f](https://github.com/canh0chua/Morphe-patches/commit/12ec30fde6f803288622b912d9459be5ebf770c8))\n* add Remove Ads, Remove ChatGPT, Remove AI News, Remove Viber Pay patches ([910488b](https://github.com/canh0chua/Morphe-patches/commit/910488b2412c4e07beae4057f1a7f3835c0b662c))",
-  "download_url": "https://github.com/canh0chua/Morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-08-27T01:47:20",
+  "description": "## [1.2.0](https://github.com/canh0chua/Morphe-patches/compare/v1.1.0...v1.2.0) (2026-08-27)\n\n### ✨ New Features\n\n* add Enable Local Backup patch ([19c8b70](https://github.com/canh0chua/Morphe-patches/commit/19c8b70f9df66da4715e118cee29fddab6d1bcdd))",
+  "download_url": "https://github.com/canh0chua/Morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

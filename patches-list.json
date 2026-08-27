@@ -1,7 +1,33 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "patches": [
+    {
+      "name": "Enable Local Backup",
+      "description": "Disables Viber's custom backup agent so Android's system backup can be used for local backup/restore.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Viber",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Remove AI News",
       "description": "Disables the AI News Brief feature and removes the AI News tab from Viber.",

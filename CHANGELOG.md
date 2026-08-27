@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/canh0chua/Morphe-patches/compare/v1.1.0...v1.2.0) (2026-08-27)
+
+### ✨ New Features
+
+* add Enable Local Backup patch ([19c8b70](https://github.com/canh0chua/Morphe-patches/commit/19c8b70f9df66da4715e118cee29fddab6d1bcdd))
+
 ## [1.1.0](https://github.com/canh0chua/Morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-27)
 
 ### 🐛 Bug Fixes
