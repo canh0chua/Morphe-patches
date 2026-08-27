@@ -2,7 +2,14 @@
 
 Personal patches for Viber and other apps.
 
-This repository contains patches for Viber that remove ads, ChatGPT, and AI News, and force tablet detection.
+This repository contains **experimental/WIP** patches for Viber. They are not guaranteed to work and may crash the app. Use at your own risk.
+
+## ⚠️ Warning: Work in Progress
+
+**These patches are currently unstable and may cause crashes or unexpected behavior.**
+- The Remove Ads, Remove ChatGPT, and Remove AI News patches have not been fully tested
+- Only the "Secondary Viber Device" patch is verified working
+- Use with caution and only if you know how to restore your app if something goes wrong
 
 ### How to use these patches
 
