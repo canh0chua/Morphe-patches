@@ -2,7 +2,7 @@
 
 Personal patches for Viber and other apps.
 
-This repository contains a **Secondary Viber Device** patch that forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow without requiring a SIM-based activation.
+This repository contains patches for Viber that remove ads, ChatGPT, AI News, and Viber Pay.
 
 ### How to use these patches
 
@@ -12,6 +12,10 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 | App | Name | Description |
 |---|---|---|
+| Viber | Remove Ads | Disables all ad SDKs (AdMob, Facebook, Vungle, AppHarbr) in Viber. |
+| Viber | Remove ChatGPT | Disables the ChatGPT integration and removes the ChatGPT tab from Viber. |
+| Viber | Remove AI News | Disables the AI News Brief feature and removes the AI News tab from Viber. |
+| Viber | Remove Viber Pay | Disables the Viber Pay feature and removes the payment tab from Viber. |
 | Viber | Secondary Viber Device | Forces Viber to detect the device as a tablet, enabling the "Link as secondary device" flow. |
 
 <!-- PATCHES_START EXPANDED -->
@@ -45,7 +49,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 - See the [patcher documentation](https://github.com/MorpheApp/morphe-patcher/blob/main/docs/1_patcher_intro.md) for more examples of creating patches and fingerprints
 - The `release.yml` and `.releaserc` already handle the full release pipeline; modify those instead of writing new scripts
-- To verify: `./gradlew :patches:buildAndroid`, then patch a Viber APK with Morphe Desktop and confirm the QR-code activation flow
+- To verify: `./gradlew :patches:buildAndroid`, then patch a Viber APK with Morphe Desktop and confirm the desired behavior
 
 ## 📜 License
 
