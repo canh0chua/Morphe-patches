@@ -2,12 +2,14 @@ package app.canh0chua.patches.viber
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.fieldAccess
 import app.morphe.patcher.literal
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.opcode
 import app.morphe.patcher.string
 import app.morphe.patcher.patch.bytecodePatch
+import com.android.tools.smali.dexlib2.Opcode
 import app.canh0chua.patches.shared.Constants.COMPATIBILITY_VIBER
 
 /**
@@ -43,7 +45,6 @@ val removeChatGptPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_VIBER)
     execute {
         ChatGptTabFingerprint.method.addInstructions(
-            // Replace the entire method with a no-op
             0,
             """
             return-void
