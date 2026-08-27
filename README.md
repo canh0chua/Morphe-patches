@@ -18,7 +18,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | Viber | Remove AI News | Disables the AI News feature in Viber. |
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.3.0](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.3.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.3.1](https://github.com/canh0chua/Morphe-patches/releases/tag/v1.3.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Viber&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>

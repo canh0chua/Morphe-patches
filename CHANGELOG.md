@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/canh0chua/Morphe-patches/compare/v1.3.0...v1.3.1) (2026-08-27)
+
+### 🐛 Bug Fixes
+
+* add AccessFlags.FINAL to AiNewsFingerprint ([ed901aa](https://github.com/canh0chua/Morphe-patches/commit/ed901aa5f17028227c07e6bdd15a44f8d11a0c4f))
+
 ## [1.3.0](https://github.com/canh0chua/Morphe-patches/compare/v1.2.2...v1.3.0) (2026-08-27)
 
 ### ✨ New Features
